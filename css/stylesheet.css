@@ -1,0 +1,35 @@
+body {
+    background-color: #bed9e9;
+    margin: auto;
+    width: 75%;
+    max-width: 800px;
+    min-width: 300px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+  }
+  
+  h1 {
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+  h2 {
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  
+  .headshot {
+    width: 25%;
+    min-width: 100px;
+  }
+  
+  .block {
+    padding-top: 1px;
+    padding-bottom: 10px;
+  }
