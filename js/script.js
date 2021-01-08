@@ -3,6 +3,7 @@ $(document).ready(function() {
     var main = d3.select("main");
     var scrolly = main.select("#scrolly");
     var figure = scrolly.select("figure");
+    figure.style("background-image", "url(" + urls[0] + ")").style("background-size", "auto 100%")
     var article = scrolly.select("article");
     var step = article.selectAll(".step");
     
