@@ -1,8 +1,8 @@
+
 body {
   background-color: #ffffff;
   margin: auto;
   width: 75%;
-  max-width: 2000px;
   min-width: 300px;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -11,19 +11,6 @@ body {
   font-weight: 300;
   font-size: 1.5rem;
 }
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #ffffff;
-  font-family: Inconsolata,monospace;
-  font-weight: 300;
-  font-size: 1.25rem;
-  text-align: center;
-}
-
 h1 {
   font-weight: 400;
   letter-spacing: .5px;
@@ -87,7 +74,9 @@ text-align: center;
 padding: 1rem;
 font-size: 1.5rem;
 }
-
+.step p a {
+  color:black;
+}
 .is-active {
   background-color:rgb(210, 222, 235);
   -webkit-transition: background-color 1000ms linear;
@@ -98,4 +87,49 @@ font-size: 1.5rem;
 .description{
   font-size: 0.5rem;
   text-align: left;
+}
+
+.sidenav {
+  height: 100%;
+  width: 145px;
+  position: fixed;
+  z-index: 1;
+  top: 25;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/*Social Media Icons*/
+.btn{
+  font-size: 50px;
+  padding: 0px;
+
+}
+
+/*Remove blue border during onclick*/
+.btn:focus, .btn:active{
+  outline: none !important;
+  box-shadow: none;
+}
+
+.fa-github{
+  color: black;
+}
+
+.fa-linkedin{
+  color: #0077B5;
 }

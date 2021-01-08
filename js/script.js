@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var urls = ["./images/headshot2.jpg", "./images/nlmatics.png", "./images/spec2.png", "./images/delib.png", "./images/sappho.png", "./images/ConvosClimate.png", "./images/regisroar.png", "./images/headshot.jpg"]
+    var urls = ["./images/headshot2.jpg", "./images/nlmatics.png", "./images/spec3.png", "./images/delib.png", "./images/sappho.png", "./images/ConvosClimate.png", "./images/regisroar.png", "./images/headshot.jpg"]
     var main = d3.select("main");
     var scrolly = main.select("#scrolly");
     var figure = scrolly.select("figure");
@@ -70,5 +70,4 @@ $(document).ready(function() {
     
     // kick things off
     init();
-      
 });
