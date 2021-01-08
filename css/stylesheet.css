@@ -9,8 +9,7 @@ body {
   text-align: left;
   font-family: Inconsolata,monospace;
   font-weight: 300;
-  font-size: 1.25rem;
-  line-height: 2;
+  font-size: 1.5rem;
 }
 #navbar {
   overflow: hidden;
